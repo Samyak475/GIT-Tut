@@ -13,3 +13,12 @@ git status --- is used to see the status of what we are doing in git
 git add name --- is used to add file to staging area.
 git commit -m "message" --- is used to commit git file
 git log --- to see commit history
+
+
+-- Next thing is how to see what all changes we are doing in file
+
+git diff -- it is used for this purpose.
+
+-- Next thing is if we add some file in staged area which should not be there so we must remove it
+
+git rm --cached filename
