@@ -5,8 +5,11 @@ to make git track this file we need to add this file to staging area
 and also we can track commit history
 
 first we need to create a git repository for local
+agar dusri time bapis commit karna hai tho uske liya bapis se ye file add karni padegi staging area me
 
 
-git init -b main  is used to add git repository for local device with name main
-git status is used to see the status of what we are doing in git
-git add is used to add file to staging area.
+git init -b main ---  is used to add git repository for local device with name main
+git status --- is used to see the status of what we are doing in git
+git add name --- is used to add file to staging area.
+git commit -m "message" --- is used to commit git file
+git log --- to see commit history
